@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ethiclean-yourlastname" # Must be unique on PyPI!
+version = "0.1.0"
+authors = [
+  { name="Aditya OHS", email="1adityaneil@gmail.com" },
+]
+description = "A lightweight tool for cleaning data and checking demographic bias."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+]
