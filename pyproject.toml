@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ethiclean-ohs" # Must be unique on PyPI!
+name = "ethiclean" # Must be unique on PyPI!
 version = "0.1.0"
 authors = [
   { name="Aditya OHS", email="1adityaneil@gmail.com" },
